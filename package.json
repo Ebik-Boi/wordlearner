@@ -1,10 +1,18 @@
 {
-  "//1": "describes your app and its dependencies",
-  "//2": "https://docs.npmjs.com/files/package.json",
-  "//3": "updating this file will download and update your packages",
-  "name": "WordLearner",
+  "name": "wordlearner",
   "version": "0.0.1-alpha",
-  "description": "",
+  "description": "A word learning bot by me :P",
+  "homepage": "https://github.com/Electrox-Qui-Mortem/wordlearner#readme",
+  "license" : "MIT",
+  "author":{ 
+    "name" : "Electrox Qui Mortem", 
+    "email" : "QuiMortemKing@Gmail.com", 
+    "url" : "http://"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/Electrox-Qui-Mortem/wordlearner.git"
+  },
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -17,13 +25,8 @@
   "engines": {
     "node": "8.x"
   },
-  "repository": {
-    "url": "https://glitch.com/edit/#!/hello-express"
-  },
-  "license": "MIT",
   "keywords": [
-    "node",
-    "glitch",
-    "express"
+    "Learn",
+    "Words"
   ]
 }
